@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #080d18;
+  color: gainsboro;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.app h1 {
+  color: #93c5fd;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+/* REGISTER USER BOX */
+
+.register-box {
+  position: relative;
+  margin: 30px 65px 30px auto;
+  width: 365px;
+  padding: 40px;
+  border-radius: 25px;
+
+  background: linear-gradient(
+      135deg,
+      #60A5FA,
+      #93C5FD,
+      #DBEAFE,
+      #60A5FA,
+      #3B82F6
+  );
+
+  color: black;
+  text-align: left;
+}
+
+
+
+.register-box h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.register-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.register-box input[type="text"],
+.register-box input[type="number"] {
+  padding: 8px;
+  background: white;
+  color: black;
+  border: none;
+}
+
+.gender {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gender label {
+  color: black;
+}
+
+.register-box button {
+  margin-top: 10px;
+  padding: 12px;
+  background: red;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* USER DIRECTORY BOX */
+
+.user-directory {
+  position: relative;
+  margin: 30px 65px 30px auto;
+  width: 365px;
+  padding: 40px;
+  border-radius: 25px;
+
+  background: linear-gradient(
+      135deg,
+      #60A5FA,
+      #93C5FD,
+      #DBEAFE,
+      #60A5FA,
+      #3B82F6
+  );
+
+  background-size: 400% 400%;
+  animation: loginGradient 6s ease infinite;
+
+  color: black;
+  text-align: left;
+}
+
+
+.user-directory h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 25px;
+}
+
+
+/* INDIVIDUAL USER CARD */
+
+.user-card {
+  position: relative;
+  margin: 30px 0;
+  width: 100%;
+  padding: 25px;
+
+  border-radius: 20px;
+
+  background: #1c1f2b;
+
+  color: gainsboro;
+  text-align: left;
+}
+
+
+
+
+.user-card h2 {
+  color: white;
+  text-align: left;
+  margin-top: 0;
+}
+
+.user-card p {
+  color: gainsboro;
+  line-height: 1.8;
+}
+
+
+/* BUTTON */
+
+.app > button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+
+  background: #60A5FA;
+  color: #080d18;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+
+
+/* ANIMATED BLUE GRADIENT */
+
+@keyframes loginGradient {
+
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+
+}
+
+.mini-card{
+  position: relative;
+  margin: 30px 0;
+  width: 100%;
+  padding: 25px;
+
+  border-radius: 20px;
+
+  background: rgb(90, 156, 210);
+
+  color: gainsboro;
+  text-align: left;
+
+}
+#button {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+
