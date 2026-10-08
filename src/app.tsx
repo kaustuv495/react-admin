@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import User from "./src/user";
-import Card from "./src/card";
-import "./src/styles.css";
+import User from "./user";
+import Card from "./card";
+import "./styles.css";
 
 const GOOGLE_SCRIPT_URL =
     "https://script.google.com/macros/s/AKfycbyxB_IU0JohNL9-_jYeoU2kj3RBawqkaFFgTveRPJlt1et2r6seRPZDOLhervjZcg1onw/exec";
